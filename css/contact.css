@@ -1,0 +1,103 @@
+/* Section Styling */
+#contact {
+    background-color: #f7f7f7; /* Light background */
+    padding: 60px 0; /* Padding around the section */
+}
+
+.bg-image {
+    background-image: url('https://example.com/your-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+#heading-text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#heading-text p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+hr.full {
+    border-top: 2px solid #fff;
+    width: 50px;
+    margin: 20px auto;
+}
+
+/* Form Styling */
+.main_content {
+    padding: 40px 0;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group-addon {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Submit Button Styling */
+.btn-primary.send {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary.send:hover {
+    background-color: #4e46d8;
+    border-color: #4e46d8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #heading-text h3 {
+        font-size: 28px;
+    }
+
+    #heading-text p {
+        font-size: 16px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .btn-primary.send {
+        width: 100%;
+    }
+
+    .input-group .form-control {
+        padding: 12px;
+    }
+}
